@@ -30,7 +30,6 @@ rdist<-function(x,p)
         i=i+1
       }
     }
-    y=x[n]
     return(y)
   }
 }
