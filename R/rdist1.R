@@ -4,7 +4,7 @@
 #'@param p numeric vector repesenting the probabilities
 #'@param k numeric
 
-rdistk<-function(x,p,k=100)
+rdistk<-function(x,p,k)
 
 {
   m<-c(1,k)
