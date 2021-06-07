@@ -1,7 +1,7 @@
 #'simulation d'une loi discrete
 #'@export
 #'@param x numeric vector representing the values of the random variable
-#'@param p numeric vector repesenting the probabilities
+#'@param p numeric vector representing the probabilities
 rdist<-function(x,p)
 {
   n=length(p)
