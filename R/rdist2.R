@@ -1,7 +1,7 @@
 #'statistiques et graphes
 #'@export
 #'@param x numeric vector representing the values of the random variable
-#'@param p numeric vector repesenting the probabilities
+#'@param p numeric vector representing the probabilities
 #'@param k numeric
 
 statdisct<-function(x,p,k)
