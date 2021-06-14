@@ -6,7 +6,7 @@
 #´@param n numeric number representing number of steps
 
 
-Sim<-function(l,ck,P,n)
+Simul2<-function(l,ck,P,n)
 {
   y<-c(rep(0,n+1))
   t<-c(0:n)
