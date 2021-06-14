@@ -1,17 +1,9 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#´chaine de markov a temps discrete
+#'@export
+#'@param z numeric vector representing the steps
+#´@param mu numeric vector the initial distribution
+#´@param p transition matrix
+#´@param n numeric number representing number of steps
 
 Sim<-function(z,mu,P,n)
 {
