@@ -3,3 +3,4 @@
 export(rdist)
 export(rdistk)
 export(statdisct)
+export(simul2)
