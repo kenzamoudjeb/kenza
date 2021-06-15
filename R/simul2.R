@@ -1,7 +1,7 @@
 #´chaine de markov a temps discrete
 #'@export
 #'@param l numeric vector representing the steps
-#´@param ck numeric vector the initial distribution
+#´@param mu numeric vector the initial distribution
 #´@param p transition matrix
 #´@param n numeric number representing number of steps
 
