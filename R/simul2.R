@@ -1,9 +1,9 @@
-#´chaine de markov a temps discrete
+#Â´chaine de markov a temps discrete
 #'@export
 #'@param l numeric vector representing the steps
-#´@param ck numeric vector the initial distribution
-#´@param p transition matrix
-#´@param n numeric number representing number of steps
+#Â´@param ck numeric vector the initial distribution
+#Â´@param p transition matrix
+#Â´@param n numeric number representing number of steps
 
 
 Sim<-function(l,ck,P,n)
@@ -15,7 +15,7 @@ Sim<-function(l,ck,P,n)
     y[i+1]<-rdist(l,P[y[i],])
   }
   
-  plot(t,y,type = "b",main = "graphe des états pour tous temps de 0 à n" ,pch=5,xlim=c(0,n),ylim=c(0,length(ck)+1),xlab = "temps" ,ylab = "états",col="green")
+  plot(t,y,type = "b",main = "graphe des Ã©tats " ,pch=5,xlim=c(0,n),ylim=c(0,length(ck)+1),xlab = "temps" ,ylab = "Ã©tats",col="green")
   par(mfrow = c(2,1))
   return(y)
 }  
