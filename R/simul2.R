@@ -15,7 +15,7 @@ Simul2<-function(l,mu,P,n)
     y[i+1]<-rdist(l,P[y[i],])
   }
   
-  plot(t,y,type = "b",main = "graphe des états " ,pch=5,xlim=c(0,n),ylim=c(0,length(mu)+1),xlab = "temps" ,ylab = "états",col="green")
+  plot(t,y,type = "b",main = "graphe des états " ,pch=8,xlim=c(0,n),ylim=c(0,length(mu)+1),xlab = "temps" ,ylab = "états",col="green")
   par(mfrow = c(2,1))
   return(y)
 }  
